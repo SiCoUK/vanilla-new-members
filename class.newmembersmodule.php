@@ -22,7 +22,10 @@ class NewMembersModule extends Gdn_Module
      */
     public function getData()
     {
-        $this->setData('NewMembers', ['SiCo' => ['id' => 2]]);
+        $userModel = new UserModel();
+        $data = $userModel->getSummary('DateInserted', 'DESC', 5);
+
+        $this->setData('NewMembers', $data);
     }
 
     /**
