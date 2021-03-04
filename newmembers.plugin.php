@@ -25,7 +25,6 @@ class NewMembersPlugin extends Gdn_Plugin {
         }*/
 
         $showOnController = [
-            'discussioncontroller',
             'discussionscontroller',
             'categoriescontroller'
         ];
