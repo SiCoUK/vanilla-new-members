@@ -34,5 +34,7 @@ class NewMembersPlugin extends Gdn_Plugin {
         if (inArrayI($controller, $showOnController)) {
             $sender->addModule('NewMembersModule');
         }
+
+        $sender->addCssFile('newmembers.css', 'plugins/NewMembers');
     }
 }
