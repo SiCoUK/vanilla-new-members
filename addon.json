@@ -1,0 +1,21 @@
+{
+  "key": "NewMembers",
+  "name": "New Members",
+  "description": "Show the most recently registered members.",
+  "version": "0.1",
+  "documentationUrl": "https://github.com/SiCoUK/vanilla-new-members",
+  "type": "addon",
+  "icon": "newmembers.png",
+  "mobileFriendly": true,
+  "hasLocale": false,
+  "authors": [
+    {
+      "name": "Simon Corless",
+      "email": "vanilla@sico.co.uk",
+      "homepage": ""
+    }
+  ],
+  "require": {
+    "vanilla": ">=3.3"
+  }
+}
