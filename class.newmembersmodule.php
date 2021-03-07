@@ -23,7 +23,7 @@ class NewMembersModule extends Gdn_Module
     public function getData()
     {
         $userModel = new UserModel();
-        $data = $userModel->getSummary('DateInserted', 'DESC', 5);
+        $data = $userModel->getSummary('DateFirstVisit', 'DESC', 5);
 
         $this->setData('NewMembers', $data);
     }
