@@ -34,6 +34,7 @@ class NewMembersPlugin extends Gdn_Plugin {
             $sender->addModule('NewMembersModule');
         }
 
-        $sender->addCssFile('newmembers.css', 'plugins/NewMembers');
+        // Do we actually need CSS if it can follow the panel styles
+        //$sender->addCssFile('newmembers.css', 'plugins/NewMembers');
     }
 }
